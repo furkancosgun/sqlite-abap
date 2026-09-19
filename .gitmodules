@@ -1,0 +1,36 @@
+[submodule "deps/open-abap-core"]
+	path = deps/open-abap-core
+	url = https://github.com/open-abap/open-abap-core.git
+[submodule "deps/express-icf-shim"]
+	path = deps/express-icf-shim
+	url = https://github.com/open-abap/express-icf-shim.git
+[submodule "deps/open-abap-gui"]
+	path = deps/open-abap-gui
+	url = https://github.com/open-abap/open-abap-gui.git
+[submodule "deps/open-abap-rap"]
+	path = deps/open-abap-rap
+	url = https://github.com/open-abap/open-abap-rap.git
+[submodule "deps/open-abap-xco"]
+	path = deps/open-abap-xco
+	url = https://github.com/open-abap/open-abap-xco.git
+[submodule "deps/open-abap-rest"]
+	path = deps/open-abap-rest
+	url = https://github.com/open-abap/open-abap-rest.git
+[submodule "deps/open-abap-adt"]
+	path = deps/open-abap-adt
+	url = https://github.com/open-abap/open-abap-adt.git
+[submodule "deps/open-abap-seo"]
+	path = deps/open-abap-seo
+	url = https://github.com/open-abap/open-abap-seo.git
+[submodule "deps/open-abap-lock"]
+	path = deps/open-abap-lock
+	url = https://github.com/open-abap/open-abap-lock.git
+[submodule "deps/open-abap-jobs"]
+	path = deps/open-abap-jobs
+	url = https://github.com/open-abap/open-abap-jobs.git
+[submodule "deps/open-abap-ci"]
+	path = deps/open-abap-ci
+	url = https://github.com/open-abap/open-abap-ci.git
+[submodule "deps/open-abap-proxy"]
+	path = deps/open-abap-proxy
+	url = https://github.com/open-abap/open-abap-proxy.git

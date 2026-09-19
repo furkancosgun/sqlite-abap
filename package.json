@@ -1,0 +1,24 @@
+{
+  "name": "sqlite-abap",
+  "version": "1.0.0",
+  "type": "module",
+  "license": "MIT",
+  "author": "Furkan Coşgun",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "build": "node scripts/clean.mjs && abap_transpile abaplint-transpiler.json",
+    "lint": "abaplint",
+    "fix": "abaplint --fix",
+    "test": "npm run lint && npm run build && node --expose-gc output/index.mjs",
+    "demo": "node scripts/create_sample_db.mjs && npm run build && node --expose-gc output/zsqlite_demo.prog.mjs",
+    "create-db": "node scripts/create_sample_db.mjs",
+    "clean": "node scripts/clean.mjs"
+  },
+  "devDependencies": {
+    "@abaplint/cli": "latest",
+    "@abaplint/runtime": "latest",
+    "@abaplint/transpiler-cli": "latest"
+  }
+}
